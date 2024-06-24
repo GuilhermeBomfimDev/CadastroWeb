@@ -55,7 +55,8 @@
             if (response.ok) {
                 alert(data.message);
             } else {
-                alert('Erro ao registrar usuário');
+                const errors = data.errors || [{ msg: 'Erro desconhecido' }];
+                alert('Erro ao registrar usuário: ' + errors.map(err => err.msg).join(', '));
             }
         });
     </script>
