@@ -1,0 +1,93 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #F1E5D1;
+    overflow: hidden;
+}
+
+.Logo {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.bloco-principal {
+    background-color: #FFFFFF;
+    border-radius: 5%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Titulo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 5px;
+    color: #A67B5B;
+}
+
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.form {
+    text-align: center;
+}
+
+.campos-form {
+    text-align: center;
+    margin-bottom: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 400px;
+    border: 1px solid grey;
+    border-radius: 30px;
+}
+
+.botao-registrar {
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    margin-right: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: 0.5s;
+    border-color: black;
+}
+
+.botao-registrar:hover {
+    color: #FFFFFF;
+    background-color: #6F4E37;
+    transition: 0.5s;
+}
+
+.botao-login {
+    text-decoration: none;
+    color: grey;
+}
+
+.botao-login:hover {
+    color: black;
+}
