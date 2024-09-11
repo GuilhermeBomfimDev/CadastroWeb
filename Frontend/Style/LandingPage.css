@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.barra-Menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    background-color: bisque;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+}
+
+/* Estilo para logo */
+.logo {
+    display: flex;
+    align-items: center;
+    color: #ff6347;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 40px;
+    margin-left: 10px;
+    height: auto;
+}
+
+.logo:hover {
+    color: #2b3f2b;
+    transition: color 0.3s ease;
+}
+
+.menu-itens {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.itens {
+    justify-content: space-between;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+/* Estilo para o ícone do carrinho */
+.itens img {
+    width: 30px;
+    height: auto;
+}
+
+.itens:hover {
+    color: #ff4500;
+}

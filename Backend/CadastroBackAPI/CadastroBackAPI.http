@@ -1,0 +1,6 @@
+@CadastroBackAPI_HostAddress = http://localhost:5140
+
+GET {{CadastroBackAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
