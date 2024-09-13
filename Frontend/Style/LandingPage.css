@@ -11,7 +11,6 @@
     padding: 15px;
     padding-left: 30px;
     padding-right: 30px;
-
     background-color: bisque;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -61,4 +60,38 @@
 
 .itens:hover {
     color: #ff4500;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    gap: 10px;
+}
+
+.foto-bolos {
+    text-align: center;
+    flex: 1;
+}
+
+.foto-bolos img {
+    width: 100%; /* Faz as imagens ocuparem a largura da div */
+    max-width: 270px; /* Define um tamanho máximo para as imagens */
+    transition: transform 0.3s ease; /* Efeito de transição suave */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.foto-bolos img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
 }
